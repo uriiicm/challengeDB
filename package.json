@@ -1,0 +1,14 @@
+{
+  "name": "dbprueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server --watch ./db/db.json --port 3000"
+  },
+  "author": "Adrian Uriel Castro Merida",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

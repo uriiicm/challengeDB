@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adrian",
+      "lastName": "Castro Merida",
+      "email": "adrian@gmail.com",
+      "password": "123",
+      "profile": "client"
+    },
+    {
+      "id": 2,
+      "name": "Karen",
+      "lastName": "Castro Catalán",
+      "email": "karen@gmail.com",
+      "password": "123",
+      "profile": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Uriel",
+      "lastName": "Castro Merida",
+      "email": "uriel@gmail.com",
+      "password": "123",
+      "profile": "client"
+    }
+  ],
+  "forms": [
+    {
+      "key": "JUG2023",
+      "name": "Jugador de Futbol Soccer",
+      "questions": [
+        {
+          "label": "Nombre",
+          "type": "text",
+          "idQuestion": "Nombre",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Apellido Materno",
+          "type": "text",
+          "idQuestion": "ApellidoMaterno",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Apellido Paterno",
+          "type": "text",
+          "idQuestion": "ApellidoPaterno",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Edad",
+          "type": "number",
+          "idQuestion": "Edad",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Fecha de nacimiento",
+          "type": "date",
+          "idQuestion": "Fechadenacimiento",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Foto",
+          "type": "file",
+          "idQuestion": "Foto",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Posición",
+          "type": "catalog",
+          "idQuestion": "Posición",
+          "value": "",
+          "options": [
+            "Delantero",
+            "Medio",
+            "Defensa"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "key": "Equip1103",
+      "name": "Registro de equipo de cómputo",
+      "questions": [
+        {
+          "label": "Marca",
+          "type": "text",
+          "idQuestion": "Marca",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Modelo",
+          "type": "text",
+          "idQuestion": "Modelo",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Color",
+          "type": "text",
+          "idQuestion": "Color",
+          "value": "",
+          "options": []
+        },
+        {
+          "label": "Estado del equipo",
+          "type": "catalog",
+          "idQuestion": "Estadodelequipo",
+          "value": "",
+          "options": [
+            "Nuevo",
+            "Seminuevo",
+            "Reacondicionado"
+          ]
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "completeForm": [
+    {
+      "usuario": {
+        "id": 3,
+        "name": "Uriel",
+        "lastName": "Castro Merida",
+        "email": "uriel@gmail.com",
+        "password": "123",
+        "profile": "client"
+      },
+      "form": {
+        "name": "Jugador de Futbol Soccer",
+        "key": "JUG2023",
+        "elements": [
+          {
+            "label": "Nombre",
+            "value": "Lionel Andrés"
+          },
+          {
+            "label": "Apellido Materno",
+            "value": "Cuccittini"
+          },
+          {
+            "label": "Apellido Paterno",
+            "value": "Messi"
+          },
+          {
+            "label": "Edad",
+            "value": 35
+          },
+          {
+            "label": "Fecha de nacimiento",
+            "value": "1987-06-24T03:30"
+          },
+          {
+            "label": "Foto",
+            "value": "C:\\fakepath\\messiFoto.jpeg"
+          },
+          {
+            "label": "Posición",
+            "value": "Delantero"
+          }
+        ]
+      },
+      "id": 1
+    },
+    {
+      "usuario": {
+        "id": 1,
+        "name": "Adrian",
+        "lastName": "Castro Merida",
+        "email": "adrian@gmail.com",
+        "password": "123",
+        "profile": "client"
+      },
+      "form": {
+        "name": "Registro de equipo de cómputo",
+        "key": "Equip1103",
+        "elements": [
+          {
+            "label": "Marca",
+            "value": "Apple"
+          },
+          {
+            "label": "Modelo",
+            "value": "Air"
+          },
+          {
+            "label": "Color",
+            "value": "gris espacial"
+          },
+          {
+            "label": "Estado del equipo",
+            "value": "Seminuevo"
+          }
+        ]
+      },
+      "id": 2
+    }
+  ]
+}
